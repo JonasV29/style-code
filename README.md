@@ -1,3 +1,3 @@
 # style-code
 
-##This repository is responsable to show my codes in CSS
+## This repository is responsible for showing my codes in CSS
