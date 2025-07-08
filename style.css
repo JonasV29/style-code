@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.video {
+    display: flex;
+    width: 952px;
+    height: 532px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+.box {
+    display: flex;
+   margin-top: 50px;
+   margin-left: 80px;
+   align-items: center;
+    
+}
+
+.name {
+    color: white; 
+}
