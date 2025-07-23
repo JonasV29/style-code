@@ -8,7 +8,7 @@
 .video {
     display: flex;
     width: 952px;
-    height: 532px;
+    height: 537px;
     background-color: black;
     align-items: center;
     justify-content: center;
@@ -18,7 +18,7 @@
 .box {
     display: flex;
    margin-top: 95px;
-   margin-left: 130px;
+   margin-left: 256px;
    align-items: center;
     
 }
@@ -36,7 +36,7 @@ align-items: center;
 padding: 0px 24px;
 gap: 5px;
 position: absolute;
-width: 750px;
+width: 1790px;
 height: 56px;
 left: 0px;
 top: 0px;
@@ -59,7 +59,6 @@ top: 18px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  cursor: pointer;
   
 }
 
@@ -71,22 +70,49 @@ top: 18px;
 
 .note-bar {
     display: flex;
-    width: 24px;
-    height: 24px;
+    width: 348px;
+    height: 40px;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 2rem;
+    border: gray solid 1px;
+    border-radius: 20px;
 }
 .search {
-   
-    width: 348px;
+    display: flex;
+    width: 35px;
     height:40px;
-    border: gray solid 1px;
+    background-color: #b9b4b4;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.note-bar div img {
+    height: 25px;
+}
+
+.search:hover {
+  background-color: #6f6767;
+  cursor: pointer;
+}
+
+.photo {
+    display: flex;
+    flex-direction: row;
+    height: 2rem;
+    width:  2rem;
+    gap: 25px;
+    justify-content: space-between;
 
 }
 
-.search-logo {
-    width: 57px;
-    height: 40px;
-    margin-top: 8px;
-    margin-left: 873px;
-    border: 1px;
-    background-color: #F8F8F8;
+
+.pause-button {
+    display: flex;
+    height: 10rem;
+    align-items: center;
+    justify-items: center;
+
 }
