@@ -20,6 +20,8 @@
    margin-top: 95px;
    margin-left: 256px;
    align-items: center;
+   gap: 16px;
+   flex-direction: row;
     
 }
 
@@ -116,3 +118,11 @@ top: 18px;
     justify-items: center;
 
 }
+
+.Sidebar  div {
+    width: 160px;
+    height: 90px;
+    margin: 5px;
+    background-color: aqua;
+}
+ 
