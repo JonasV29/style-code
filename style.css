@@ -12,19 +12,28 @@
     background-color: black;
     align-items: center;
     justify-content: center;
-    padding: 100px;
+    padding: 40px;
+    box-sizing: border-box;
 }
 
 .box {
     display: flex;
    margin-top: 95px;
    margin-left: 256px;
-   align-items: center;
+   align-items: flex-start;
    gap: 16px;
    flex-direction: row;
     
 }
+.avatar{
+    margin-top: 1rem;
+    width: 3.6rem;
+}
 
+img .avatar,
+p .title {
+    flex-direction: column;
+}
 .name {
     color: white; 
 }
@@ -115,8 +124,14 @@ top: 18px;
     display: flex;
     height: 10rem;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
 
+}
+
+.Siderbar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .Sidebar  div {
