@@ -140,4 +140,16 @@ top: 18px;
     margin: 5px;
     background-color: aqua;
 }
- 
+
+.title {
+    margin-top: 0.5rem;
+    margin-left: 0.2rem;
+    font-weight: bold;
+}
+
+.name_video {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    margin-top: 25px;
+    font-size: large;
+}
