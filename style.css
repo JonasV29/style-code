@@ -166,16 +166,37 @@ top: 18px;
     margin:0;
 }
 
-button {
+ button {
     background-color: red;
     color: white;
     padding: 8px 12px;
     border: none;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
+.like:hover {
+    cursor: pointer;
+}
+
+.dislike:hover {
+    cursor: pointer;
+}
+
 .play_two{
     display: flex;
     align-items: center;
-    gap:10px;
-    
+    gap:20px; 
+}
+
+.like {
+    width: 50px;
+    height: 50px;
+}
+
+.dislike {
+    width: 20px;
+    height: 20px;
 }
